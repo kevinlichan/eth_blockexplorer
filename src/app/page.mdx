@@ -1,0 +1,28 @@
+import { HeroPattern } from '@/components/HeroPattern'
+
+export const metadata = {
+  title: 'Experimental Explorer',
+  description:
+    'Customizable playground for a modern block explorer.',
+}
+
+<HeroPattern />
+
+# Ethereum Mainnet
+
+Block explorer and dashboard for Ethereum Mainnet.
+
+<div className="not-prose mb-16 mt-6 flex gap-3">
+  <Button href="/blocks" variant="outline">
+    <>Blocks</>
+  </Button>
+  <Button href="/balances" variant="outline">
+    <>Balances</>
+  </Button>
+  <Button href="/transactions" variant="outline">
+    <>Transactions</>
+  </Button>
+  <Button href="/gas" variant="outline">
+    <>Gas Station</>
+  </Button>
+</div>
